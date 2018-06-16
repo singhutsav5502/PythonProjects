@@ -12,7 +12,7 @@ for i in range(len(A)):
         internalList=internalList[1:-1]
         internalList=list(map(float,internalList.split(',')))
 
-        for j in internalList: #trying to print individual elements of the array but DOESN'T work due to string type
+        for j in internalList: # print individual elements of the array 
             print('elements are:',j) 
         '''x=A[i].replace("["," ") #A test code to strip out values from a nested array
         x=x.replace("]"," ")
